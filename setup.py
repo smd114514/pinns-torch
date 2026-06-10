@@ -17,7 +17,7 @@ setup(
     long_description_content_type='text/markdown',
     url="https://github.com/rezaakb/pinns-torch",
     license='BSD-3-Clause',
-    install_requires=["hydra-core", "scipy", "pyDOE", "matplotlib", "rootutils", "tqdm", "rich"],
+    install_requires=["hydra-core", "scipy", "pydoe", "matplotlib", "rootutils", "tqdm", "rich"],
     packages=find_packages(include='pinnstorch.*'),
     # use this to customize global commands available in the terminal after installing the package
     include_package_data=True,

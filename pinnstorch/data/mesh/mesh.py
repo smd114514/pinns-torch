@@ -2,7 +2,7 @@ from typing import Callable, List, Union
 
 import numpy as np
 import torch
-from pyDOE import lhs
+from pydoe import lhs
 
 from pinnstorch.data import Interval, Rectangle, RectangularPrism, TimeDomain
 
